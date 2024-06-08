@@ -48,6 +48,7 @@ sequenceOf(
   "text-serializer-legacy",
   "text-serializer-plain",
   "text-serializer-ansi",
+  "text-serializer-nbt"
 ).forEach {
   include("adventure-$it")
   project(":adventure-$it").projectDir = file(it)
